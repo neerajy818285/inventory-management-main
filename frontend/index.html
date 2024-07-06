@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory Management System</title>
+    <style>
+      .MuiDialogActions-root {
+        display: none !important;
+      }
+      .Toastify {
+        z-index: 99999 !important;
+      }
+      .Toastify__toast-body {
+        max-width: calc(100% - 15px) !important;
+      }
+      .Toastify__toast-body > div:last-child {
+        word-break: unset !important;
+        flex: auto !important;
+        font-size: 0.875rem !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
